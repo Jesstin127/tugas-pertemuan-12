@@ -16,6 +16,8 @@ def num(n:int):
             return 'twenty ' + num(n%10)
         elif n//10 == 3:
             return 'thirty ' + num(n%10)
+        elif n//10 == 4:
+            return 'forty ' + num(n%10)
         elif n//10 == 5:
             return 'fifty ' + num(n%10)
         else :
